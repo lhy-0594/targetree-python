@@ -191,7 +191,7 @@ from targetree import targetree
 from targetree.tree_vis import plot_cart_tree
 
 DATA_URL = (
-    "https://raw.githubusercontent.com/Bill-Wang-Metrics/"
+    "https://raw.githubusercontent.com/lhy-0594/"
     "targetree-python/main/examples/data/forestfires.csv"
 )
 forestfires = pd.read_csv(DATA_URL)
@@ -395,4 +395,4 @@ help(plot_cart_tree)
 ```
 
 Questions and bug reports can be submitted through the repository's
-[Issues page](https://github.com/Bill-Wang-Metrics/targetree-python/issues).
+[Issues page](https://github.com/lhy-0594/targetree-python/issues).
