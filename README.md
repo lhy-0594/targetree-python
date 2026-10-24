@@ -13,13 +13,13 @@ newer.
 Install the package directly from GitHub in a terminal:
 
 ```bash
-python -m pip install "git+https://github.com/Bill-Wang-Metrics/targetree-python.git"
+python -m pip install "git+https://github.com/lhy-0594/targetree-python.git"
 ```
 
 To update the package later:
 
 ```bash
-python -m pip install --upgrade --force-reinstall "git+https://github.com/Bill-Wang-Metrics/targetree-python.git"
+python -m pip install --upgrade --force-reinstall "git+https://github.com/lhy-0594/targetree-python.git"
 ```
 
 Then verify the installation in Python:
@@ -50,7 +50,7 @@ from targetree import targetree
 from targetree.tree_vis import plot_cart_tree
 
 DATA_URL = (
-    "https://raw.githubusercontent.com/Bill-Wang-Metrics/"
+    "https://raw.githubusercontent.com/lhy-0594/"
     "targetree-python/main/examples/data/diabetes.csv"
 )
 diabetes = pd.read_csv(DATA_URL)
@@ -128,7 +128,7 @@ from targetree import targetree
 from targetree.tree_vis import plot_cart_tree
 
 DATA_URL = (
-    "https://raw.githubusercontent.com/Bill-Wang-Metrics/"
+    "https://raw.githubusercontent.com/lhy-0594/"
     "targetree-python/main/examples/data/diabetes.csv"
 )
 diabetes = pd.read_csv(DATA_URL)
@@ -277,7 +277,7 @@ from targetree import targetree
 from targetree.tree_vis import plot_cart_tree
 
 DATA_URL = (
-    "https://raw.githubusercontent.com/Bill-Wang-Metrics/"
+    "https://raw.githubusercontent.com/lhy-0594/"
     "targetree-python/main/examples/data/forestfires.csv"
 )
 forestfires = pd.read_csv(DATA_URL)
